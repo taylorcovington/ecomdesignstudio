@@ -10,11 +10,11 @@ const ContactMe = () => {
         <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
           <div className="max-w-lg mx-auto">
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
-              Work with me
+              Work with us
             </h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-              Looking to hire a developer for a project? In need of a mentor?
-              I'd be happy to hop on a call to chat more about it.
+              Looking to hire a developer for a theme update? Need to rebrand your e-commerce store?
+             We're be happy to hop on a call to chat more about it.
             </p>
             <dl className="mt-8 text-base text-gray-500">
               <div className="mt-6">
@@ -34,7 +34,7 @@ const ContactMe = () => {
                     className="flex-shrink-0 h-6 w-6 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-3">tcovingtondev@gmail.com</span>
+                  <span className="ml-3">taylor@ecomdesignstudio.com</span>
                 </dd>
               </div>
             </dl>

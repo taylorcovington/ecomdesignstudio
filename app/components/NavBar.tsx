@@ -6,7 +6,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "Blog", href: "/blog" },
-  { name: "What I offer", href: "/#learnMore" },
+  { name: "What we offer", href: "/#learnMore" },
   { name: "About", href: "/#about" },
   // { name: "", href: "#" },
 ];
@@ -55,7 +55,7 @@ export default function NavBar() {
                 href="#contactMe"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50"
               >
-                Work with Me
+                Work with us
               </a>
             </span>
           </div>
@@ -106,7 +106,7 @@ export default function NavBar() {
               to="/#contactMe"
               className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
             >
-              Work with me
+              Work with us
             </Link>
           </div>
         </Popover.Panel>

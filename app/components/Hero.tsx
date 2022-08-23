@@ -80,11 +80,11 @@ export default function Hero() {
       <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
         <div className="text-center">
           <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
-            <div className="md:block mb-2">Taylor Covington</div>{" "}
-            <div className="text-[#00AEEF] md:block">React Engineer</div>
+            <div className="md:block mb-2">E-Comm Design Studio</div>{" "}
+            <div className="text-[#00AEEF] md:block"></div>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            Helping companies bring desings to life.
+            Do do one thing very well, make your e-commerce store exactly how you want it.
           </p>
           <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
                 <div
@@ -98,7 +98,7 @@ export default function Hero() {
                       "w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#00AEEF] hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                     }
                   >
-                    Say hi 👋
+                    Get Started
                   </a>
                 </div>
           </div>

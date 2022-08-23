@@ -3,24 +3,24 @@ import { CodeIcon, DatabaseIcon, CloudIcon } from "@heroicons/react/outline";
 
 const supportLinks = [
   {
-    name: "Web App Development",
+    name: "From Design to Development",
     href: "#",
     description:
-      "I turn your app designs into full-stack applications. I work with ReactJS, Node, GraphQL, AWS, and PostgreSQL",
+      "You no longer need to spend valuable time trying to update a Shopify theme yourself. We take care of it for you.",
     icon: CodeIcon,
   },
   {
-    name: "Website Development",
+    name: "Rebranding",
     href: "#",
     description:
-      "Your website is where you make your first impression and convert users. I work with CSS, HTML, React, and Gatsby to build high converting websites",
+      "We focus on getting your store rebranded within 4 weeks",
     icon: DatabaseIcon,
   },
   {
-    name: "API Development",
+    name: "Conversion Rate Optimized",
     href: "#",
     description:
-      "I have years of experience building API's using Node, Serverless, and AWS",
+      "When we build your new site, we focus on high conversion copywriting.",
     icon: CloudIcon,
   },
 ];
@@ -43,12 +43,10 @@ export default function FeatureList() {
         </div>
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">
-            A Full-Stack Developer
+            We do one thing well
           </h1>
           <p className="mt-6 max-w-3xl text-xl text-gray-300">
-            Over the years I've been able to work on many diverse projects. From
-            full-stack JavaScript (React, Node, Express, GraphQL), to building
-            servless API's using Node and AWS API Gateway.
+          Build custom Shopify e-Commerce store themes
           </p>
         </div>
       </div>
