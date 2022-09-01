@@ -2,7 +2,7 @@ import { Link } from "@remix-run/react";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import logo from '../../public/images/Transparent-white.png'
+import logo from '../../public/images/brandmark-logo-icon.png'
 
 const navigation = [
   { name: "Blog", href: "/blog" },
@@ -22,11 +22,11 @@ const Header = () => (
           <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
             <div className="flex items-center justify-between w-full md:w-auto">
               <a href="/">
-                <span className="sr-only">signature</span>
+                <span className="sr-only">logo</span>
                 <img
-                  className="h-auto w-[11.5rem]"
+                  className="h-auto w-[4.5rem]"
                   src={logo}
-                  alt="signature logo"
+                  alt="ecom logo"
                 />
               </a>
               <div className="-mr-2 flex items-center md:hidden">

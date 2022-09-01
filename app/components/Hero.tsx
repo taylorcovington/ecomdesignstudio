@@ -1,3 +1,4 @@
+import logo from '../../public/images/brandmark-logo-white-trans.png'
 export default function Hero() {
   return(
     <div
@@ -79,13 +80,18 @@ export default function Hero() {
     <div className="relative pt-10 pb-16 sm:pb-24">
       <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
         <div className="text-center">
-          <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
+          <img
+            className="h-auto w-[35rem]"
+            src={logo}
+            alt="ecom logo"
+          />
+          {/* <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
             <div className="md:block mb-2">E-Comm Design Studio</div>{" "}
             <div className="text-[#00AEEF] md:block"></div>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
             Do do one thing very well, make your e-commerce store exactly how you want it.
-          </p>
+          </p> */}
           <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
                 <div
                   className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"
