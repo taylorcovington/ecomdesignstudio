@@ -1,4 +1,4 @@
-import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
+import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 const ContactMe = () => {
   return (
@@ -30,11 +30,11 @@ const ContactMe = () => {
               <div className="mt-3">
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
-                  <MailIcon
+                  <EnvelopeIcon
                     className="flex-shrink-0 h-6 w-6 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-3">taylor@ecomdesignstudio.com</span>
+                  <span className="ml-3">taylor@ecommdevstudio.com</span>
                 </dd>
               </div>
             </dl>

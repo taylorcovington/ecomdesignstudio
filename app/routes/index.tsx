@@ -10,7 +10,7 @@ import { LoaderFunction } from "@remix-run/node"
 import * as postOne from './blog/how-i-built-this-blog.mdx'
 import * as postTwo from './blog/five-soft-skills.mdx'
 import * as postThree from './blog/increase-productivity-in-5-steps.mdx'
-import Testimonials from "~/components/Testimonials";
+import PortfolioList from "~/components/PortfolioList";
 import Testimonial from "~/components/Testimonial";
 
 
@@ -35,8 +35,9 @@ export default function Index() {
   return (
     <>
       <Hero />
-      <LatestPosts posts={posts?.slice(0, 3)}/>
+      <PortfolioList />
       <FeatureList />
+      <LatestPosts posts={posts?.slice(0, 3)}/>
       {/* <AboutMe /> */}
       {/* <Testimonial /> */}
       {/* <Testimonials /> */}
