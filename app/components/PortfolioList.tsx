@@ -7,7 +7,7 @@ export default function Example() {
       <div className="relative">
       <div className="relative pb-12">
           <h2 className="text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-            Shopify development for Fitness brands
+            Shopify Experts for Fitness brands
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-center text-xl text-gray-500">
             We love working with fitness brands because we are obsessed with fitness ourselves
